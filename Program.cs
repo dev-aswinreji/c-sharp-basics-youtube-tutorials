@@ -63,8 +63,10 @@ class Program
   
    Console.WriteLine("What's your name?");
    string name = Console.ReadLine();
-   Console.WriteLine("Hello " + name);
 
+   Console.WriteLine("What is you age?");
+   ParseInt(Convert.ToInt32(Console.ReadLine()),out int age);
+   Console.WriteLine("Hello " + name + " your age is " + age);
  } 
 
 }
