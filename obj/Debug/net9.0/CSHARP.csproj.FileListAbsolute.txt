@@ -12,3 +12,4 @@
 /home/user/CODE/CSHARP/obj/Debug/net9.0/CSHARP.pdb
 /home/user/CODE/CSHARP/obj/Debug/net9.0/CSHARP.genruntimeconfig.cache
 /home/user/CODE/CSHARP/obj/Debug/net9.0/ref/CSHARP.dll
+/home/user/CODE/CSHARP/obj/Debug/net9.0/CSHARP.sourcelink.json

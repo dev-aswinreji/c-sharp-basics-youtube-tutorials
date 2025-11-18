@@ -65,8 +65,14 @@ class Program
    string name = Console.ReadLine();
 
    Console.WriteLine("What is you age?");
-   ParseInt(Convert.ToInt32(Console.ReadLine()),out int age);
-   Console.WriteLine("Hello " + name + " your age is " + age);
+
+   // int age = Convert.ToInt32(Console.ReadLine());
+     if(!int.TryParse(Console.ReadLine(),out int age)){
+        Console.WriteLine("Invalid Input");
+        return; 
+     }
+     int intAge = Convert.ToInt32(age);
+   Console.WriteLine("Hello " + name + " your age is " + intAge);
  } 
 
 }
