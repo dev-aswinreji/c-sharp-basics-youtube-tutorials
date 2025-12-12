@@ -1,17 +1,13 @@
-﻿class Crack
+﻿namespace Myapp;
+
+using Myapp.Models;
+
+class Program
 {
     public static void Main()
     {
-        string password = "";
-        Console.WriteLine("Enter you password: ");
-        password = Console.ReadLine()!;
-        if (password == "user")
-        {
-           Console.WriteLine("Damn u r right!"); 
-        }else
-        {
-            Console.WriteLine("Bad credential!");
-        }
-        
+        var p = new Person{Name="Alan"};
+        p.Age();
+        Console.WriteLine(p.Name + " heh");
     }
 }
