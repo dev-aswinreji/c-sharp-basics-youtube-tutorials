@@ -8,6 +8,7 @@ class Program
     {
         var p = new Person{Name="Alan"};
         p.Age();
+        p.Run();
         Console.WriteLine(p.Name + " heh");
     }
 }

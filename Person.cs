@@ -8,6 +8,9 @@ namespace Myapp.Models
             Console.WriteLine("hello world");
         }
 
+        public string Run(){
+          return "hello world";
+        }
     }
 }
 
